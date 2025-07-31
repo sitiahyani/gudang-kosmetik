@@ -21,12 +21,19 @@
 <body class="bg-gray-100 overflow-x-auto">
 
     <!-- Sidebar -->
+<<<<<<< HEAD
     <aside id="sidebar" class="w-60 bg-white shadow h-screen fixed top-0 left-0 transform transition-transform duration-200 lg:translate-x-0 -translate-x-full z-50">
     <div class="flex items-center gap-2 h-16 px-4 border-b text-pink-600 text-lg">
+=======
+   <!-- Sidebar -->
+<aside id="sidebar" class="w-60 bg-white shadow h-screen fixed top-0 left-0 transform transition-transform duration-200 lg:translate-x-0 -translate-x-full z-50">
+    <div class="flex items-center gap-2 h-16 px-4 border-b text-pink-600 font-bold text-lg">
+>>>>>>> cab39bc68a50668f8b649c55133273738230cbd2
       <img src="/img/logo.png" alt="Logo" class="w-10 h-10 rounded-full border-2 border-yellow-500">
       Glowsya
     </div>
     <nav class="mt-4">
+<<<<<<< HEAD
         <ul>
             <!-- Dashboard -->
             <li>
@@ -84,6 +91,38 @@
               </a>
             </li>
     </ul>          
+=======
+      <ul>
+        <li class="flex items-center px-4 py-2 bg-pink-100 border-l-4 border-pink-500 cursor-pointer">
+          <i data-feather="home" class="mr-3"></i> Dashboard
+        </li>
+        <li>
+          <div onclick="toggleDropdown()" class="flex justify-between items-center px-4 py-2 hover:bg-gray-100 cursor-pointer">
+            <div class="flex items-center">
+              <i data-feather="package" class="mr-3"></i> Produk
+            </div>
+            <i data-feather="chevron-down"></i>
+          </div>
+          <ul id="produkMenu" class="hidden bg-gray-50">
+            <li class="px-12 py-2 hover:bg-gray-200 cursor-pointer">Brand Produk</li>
+            <li class="px-12 py-2 hover:bg-gray-200 cursor-pointer">Satuan Produk</li>
+          </ul>
+        </li>
+        <li class="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer">
+          <i data-feather="users" class="mr-3"></i> Data Karyawan
+        </li>
+        <li class="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer">
+          <i data-feather="log-in" class="mr-3"></i> Produk Masuk
+        </li>
+        <li class="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer">
+          <i data-feather="log-out" class="mr-3"></i> Produk Keluar
+        </li>
+        <li class="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer">
+          <i data-feather="truck" class="mr-3"></i> Supplier
+        </li>
+      </ul>
+    </nav>
+>>>>>>> cab39bc68a50668f8b649c55133273738230cbd2
   </aside>
   
     
@@ -98,9 +137,15 @@
         </div>
         <div class="flex items-center gap-4">
           <div class="relative hidden sm:block">
+<<<<<<< HEAD
             <span class="material-icons absolute left-2 top-1.5 text-gray-400 border-">search</span>
             <input type="text" placeholder="Pencarian..." class="border rounded-[10px] pl-10 focus:outline-none text-sm w-40 sm:w-64">
         </div>
+=======
+            <span class="material-icons absolute left-2 top-1.5 text-gray-400">search</span>
+            <input type="text" placeholder="Pencarian..." class="border rounded pl-8 pr-2 py-1 focus:outline-none text-sm w-40 sm:w-64">
+          </div>
+>>>>>>> cab39bc68a50668f8b649c55133273738230cbd2
     
         <!-- Dropdown Profil -->
         <div class="relative">
